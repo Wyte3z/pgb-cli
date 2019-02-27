@@ -20,7 +20,7 @@ module.exports = () => {
     str = str.concat('\n\n')
 
     if (data.length === 0) {
-      return str.concat('no keys\n')
+      return str.concat('no keys\n\n')
     }
 
     let table = new easyTable() /* eslint-disable-line new-cap */
